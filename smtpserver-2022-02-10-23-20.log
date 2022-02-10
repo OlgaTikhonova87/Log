@@ -1,0 +1,30 @@
+10/02/22 23:20:09 INFO  smtpserver: SMTP Service uses default thread group.
+10/02/22 23:20:09 INFO  smtpserver: SMTP Service is running on: LSPB-0376
+10/02/22 23:20:09 INFO  smtpserver: SMTP Service handler hello name is: LSPB-0376
+10/02/22 23:20:09 INFO  smtpserver: SMTP Service handler connection timeout is: 360000
+10/02/22 23:20:09 INFO  smtpserver: SMTP Service connection backlog is: 5
+10/02/22 23:20:09 INFO  smtpserver: SMTP Service will allow a maximum of 30 connections.
+10/02/22 23:20:09 INFO  smtpserver: This SMTP server does not require authentication.
+10/02/22 23:20:09 INFO  smtpserver: Authorized addresses: [127.0.0.0/255.0.0.0]
+10/02/22 23:20:09 INFO  smtpserver: No maximum message size is enforced for this server.
+10/02/22 23:20:09 INFO  smtpserver: The idle timeout will be reset every 20480 bytes.
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.VrfyCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.AuthCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.QuitCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.HelpCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.HeloCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.MailCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.DataCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.RcptCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.EhloCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: Added MessageHandler: org.apache.james.smtpserver.SendMailHandler
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.NoopCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.ExpnCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: Added Commandhandler: org.apache.james.smtpserver.RsetCmdHandler
+10/02/22 23:20:09 INFO  smtpserver: SMTP Service started plain:25
+10/02/22 23:23:54 INFO  smtpserver: Connection from 0:0:0:0:0:0:0:1 (0:0:0:0:0:0:0:1)
+10/02/22 23:23:54 ERROR smtpserver: Rejected message - 0:0:0:0:0:0:0:1 not authorized to relay to flexdatabases.com [to:olga.tikhonova@flexdatabases.com] [from:admin@example.com]
+10/02/22 23:23:54 INFO  smtpserver: Connection from 0:0:0:0:0:0:0:1 (0:0:0:0:0:0:0:1)
+10/02/22 23:23:55 INFO  smtpserver: Successfully spooled mail Mail1644524634583-0 from admin@example.com on 0:0:0:0:0:0:0:1 for [testuser8@localhost]
+10/02/22 23:23:55 INFO  smtpserver: Connection from 0:0:0:0:0:0:0:1 (0:0:0:0:0:0:0:1)
+10/02/22 23:23:55 INFO  smtpserver: Successfully spooled mail Mail1644524635125-1 from admin@example.com on 0:0:0:0:0:0:0:1 for [root@localhost]
